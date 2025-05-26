@@ -37,6 +37,15 @@ os.environ["SOCKS_PROXY"] = f"socks://{proxy_address}:{proxy_port}"
 ```
 
 
+# UV
+
+```toml
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
+```
+
 
 # 基础
 
